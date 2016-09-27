@@ -1,0 +1,77 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.container {
+    width: 100%;
+}
+
+.navbar-brand img {
+    max-height: 200%;  
+    max-width: 200%;  
+    margin-top: -9px;
+}
+
+.bg {
+  background: image-url('watsons.jpg') no-repeat center center;
+  position: absolute; 
+  width: 100%;
+  /* Set a specific height */
+  min-height: 500px;
+  z-index: -1;
+  
+  background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+
+.jumbotron {
+  height: 350px;
+  color: white;
+  text-shadow: #444 0 1px 1px;
+  padding-left: 100px;
+  background:transparent;
+  h1 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-top: 50px;
+    font-size: 5.5rem;
+  }
+}
+
+.btn-success {
+    margin-top: 30px;
+    padding: 12px;
+    color: white;
+    font-family: sans-serif; 
+}
+
+.row {
+    margin: 0 !important;
+}
+
+
+.text-center {
+    font-family: 'Quicksand', sans-serif; 
+}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 110px 0 0 0 !important;
+}
+
+.col-md-4 {
+    width: 30%;
+    margin-left: 3%;
+    border-style: solid;
+    border-width: thin;
+    border-color: #e5e5e5;
+
+    
+    img {
+        width: 90%;
+        display: block;
+        margin: auto;
+    }
+}
+
